@@ -1,17 +1,17 @@
 ## Git config
-- git config core.ignorecase false
+git config core.ignorecase false
 
 ## How to set navigation
-- Create a directory hierarchy in `src/pages/config.md`
+Create a directory hierarchy in `src/pages/config.md`
 
 ## Local development
-- This is not possible at the moment (we're still working on it)
+This is not possible at the moment (we're still working on it)
 
 ## Launching a deploy
-- Go to Actions > Deployment > Run workflow
+Go to Actions > Deployment > Run workflow
 
 ## URL
-- developer-stage.adobe.com/{path-prefix}/{relative-path-to-file}
+developer-stage.adobe.com/{path-prefix}/{relative-path-to-file}
 
 ## Where to ask for help
 
