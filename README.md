@@ -1,3 +1,6 @@
+## Git config
+- git config core.ignorecase false
+
 ## How to set navigation
 - Create a directory hierarchy in `src/pages/config.md`
 
