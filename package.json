@@ -33,7 +33,8 @@
     "buildRedirections": "npx --yes github:AdobeDocs/adp-devsite-utils buildRedirections -v",
     "renameFiles": "npx --yes github:AdobeDocs/adp-devsite-utils renameFiles -v",
     "normalizeLinks": "npx --yes github:AdobeDocs/adp-devsite-utils normalizeLinks -v",
-    "buildSiteWideBanner": "npx --yes github:AdobeDocs/adp-devsite-utils buildSiteWideBanner -v"
+    "buildSiteWideBanner": "npx --yes github:AdobeDocs/adp-devsite-utils buildSiteWideBanner -v",
+    "lint": "npx --yes github:AdobeDocs/adp-devsite-utils runLint -v"
   },
   "remarkConfig": {
     "plugins": [
