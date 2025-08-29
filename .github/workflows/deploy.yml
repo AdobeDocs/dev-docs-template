@@ -29,7 +29,7 @@ jobs:
       env: ${{ inputs.env }}
       baseSha: ${{ inputs.baseSha }}
       deployAll: ${{ inputs.deployAll }}
-  lint: 
+  lint:
     name: Lint
     runs-on: ubuntu-latest
     steps:
