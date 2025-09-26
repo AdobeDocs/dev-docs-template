@@ -1,6 +1,6 @@
 ---
-title: Guides - Cat Analytics
-description: This is the guides overview page of Cat Analytics 
+title: Guides - Analytics
+description: This is the guides overview page of  Analytics 
 ---
 
 # Get Started
