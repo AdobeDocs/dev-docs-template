@@ -15,9 +15,9 @@
         - [Dummy OAuth using POSTMAN](guides/dummy_using_postman/index.md) 
     - [Metrics API](guides/dummy_metrics_api/index.md) 
     - [Migrating](guides/migrating/index.md) 
-    - [Overview](support/index.md) header
+    - [Overview](support/index.md) 
         - [Help](support/index.md) 
         - [FAQ](support/FAQ/index.md) 
         - [How to contribute](support/contribute/index.md) 
-    - [Community](support/community/index.md) header
+    - [Community](support/community/index.md) 
         - [Information](support/community/index.md) 
