@@ -20,7 +20,6 @@
     "buildSiteWideBanner": "npx --yes github:AdobeDocs/adp-devsite-utils buildSiteWideBanner -v",
     "lint": "npx --yes github:AdobeDocs/adp-devsite-utils runLint -v"
   },
-  "packageManager": "yarn@3.2.1",
   "devDependencies": {
     "express": "5.1.0"
   }
