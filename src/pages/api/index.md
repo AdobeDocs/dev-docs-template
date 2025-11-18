@@ -1,1 +1,1 @@
-<RedoclyAPIBlock src="/dev-docs-template/petstore.json" />
+<RedoclyAPIBlock src="../assets/petstore.json" />
