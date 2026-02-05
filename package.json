@@ -7,8 +7,8 @@
     "url": "https://github.com/AdobeDocs/dev-docs-template"
   },
   "author": {
-    "name": "Stephan Ringel",
-    "url": "https://github.com/icaraps"
+    "name": "Tim Kim",
+    "url": "https://github.com/timkim"
   },
   "scripts": {
     "dev": "node ./dev.mjs",
