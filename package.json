@@ -11,7 +11,7 @@
     "url": "https://github.com/timkim"
   },
   "scripts": {
-    "dev": "node ./dev.mjs",
+    "dev": "npx --yes github:AdobeDocs/adp-devsite-utils dev",
     "buildNavigation": "npx --yes github:AdobeDocs/adp-devsite-utils buildNavigation -v",
     "buildRedirections": "npx --yes github:AdobeDocs/adp-devsite-utils buildRedirections -v",
     "renameFiles": "npx --yes github:AdobeDocs/adp-devsite-utils renameFiles -v",
@@ -24,8 +24,5 @@
     "link:deadlinkonly": "npx --yes github:AdobeDocs/adp-devsite-utils runLint --dead-links-only -v",
     "redirectCheck:stage": "npx --yes github:AdobeDocs/adp-devsite-utils redirectChecker stage --verbose",
     "redirectCheck:prod": "npx --yes github:AdobeDocs/adp-devsite-utils redirectChecker prod --verbose"
-  },
-  "devDependencies": {
-    "express": "5.1.0"
   }
 }
