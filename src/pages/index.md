@@ -5,7 +5,7 @@ contributors:
   - https://github.com/icaraps 
 ---
 
-<HeroSimple slots="heading, text"/>
+<Superhero slots="heading, text"/>
 
 # Analytics API
 

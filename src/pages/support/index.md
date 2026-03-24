@@ -3,7 +3,7 @@ title: Support - Analytics
 description: This is the support page of Analytics 
 ---
 
-<HeroSimple slots="heading, text" background="rgb(19, 93, 183)"/>
+<Superhero slots="heading, text" background="rgb(19, 93, 183)"/>
 
 # Support
 
