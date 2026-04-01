@@ -27,6 +27,9 @@ jobs:
   deployment:
     name: Deployment
     uses: AdobeDocs/adp-devsite-workflow/.github/workflows/deploy.yml@main
+    secrets:
+      ADP_DEVSITE_APP_ID: ${{ secrets.ADP_DEVSITE_APP_ID }}
+      ADP_DEVSITE_APP_PRIVATE_KEY: ${{ secrets.ADP_DEVSITE_APP_PRIVATE_KEY }}
     with:
       env: ${{ inputs.env || 'prod' }}
       baseSha: ${{ inputs.baseSha || '' }}
