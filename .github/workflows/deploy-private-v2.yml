@@ -26,13 +26,9 @@ on:
 jobs:
   deployment:
     name: Deployment
-    uses: AdobeDocs/adp-devsite-workflow/.github/workflows/deploy.yml@main
-    secrets:
-      AIO_AZURE_DEV_PRIVATE_CONNECTION_STRING: ${{ secrets.AIO_AZURE_DEV_PRIVATE_CONNECTION_STRING }}
-      AIO_AZURE_PROD_PRIVATE_CONNECTION_STRING: ${{ secrets.AIO_AZURE_PROD_PRIVATE_CONNECTION_STRING }}
-      AIO_FASTLY_TOKEN: ${{ secrets.AIO_FASTLY_TOKEN }}
-      AIO_FASTLY_PROD_URL: ${{ secrets.AIO_FASTLY_PROD_URL }}
-      AIO_FASTLY_DEV_URL: ${{ secrets.AIO_FASTLY_DEV_URL }}
+    if: github.actor != 'adp-devsite-app[bot]'
+    uses: AdobeDocsPrivate/adp-devsite-workflow-private/.github/workflows/deploy-v2.yml@main
+    secrets: inherit
     with:
       env: ${{ inputs.env || 'prod' }}
       baseSha: ${{ inputs.baseSha || '' }}
