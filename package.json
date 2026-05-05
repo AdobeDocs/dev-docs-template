@@ -10,6 +10,9 @@
     "name": "Tim Kim",
     "url": "https://github.com/timkim"
   },
+  "engines": {
+    "node": "^24.11.0"
+  },
   "scripts": {
     "dev": "npx --yes github:AdobeDocs/adp-devsite-utils dev",
     "buildNavigation": "npx --yes github:AdobeDocs/adp-devsite-utils buildNavigation -v",
