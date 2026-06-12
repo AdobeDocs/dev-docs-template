@@ -5,12 +5,21 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      env:
+        description: "Select environment to deploy to"
+        type: choice
+        required: true
+        default: "prod"
+        options:
+          - "prod"
+          - "stg & prod"
 
 jobs:
   deployment:
     name: Deployment
     if: github.actor != 'adp-devsite-app[bot]' && github.repository != 'AdobeDocs/dev-docs-template'
-    uses: AdobeDocsPrivate/adp-devsite-workflow-private/.github/workflows/deploy-v2.yml@main
+    uses: AdobeDocsPrivate/adp-devsite-workflow-private/.github/workflows/deploy-v3.yml@main
     secrets: inherit
     with:
-      env: prod
+      env: ${{ inputs.env || 'prod' }}
