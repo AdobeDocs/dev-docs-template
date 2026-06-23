@@ -6,7 +6,7 @@ on:
 jobs:
   deployment:
     name: Deployment
-    uses: AdobeDocsPrivate/adp-devsite-workflow-private/.github/workflows/deploy-v2.yml@main
+    uses: AdobeDocsPrivate/adp-devsite-workflow-private/.github/workflows/deploy-v3.yml@main
     secrets: inherit
     with:
-      env: stg
+      env: stage
